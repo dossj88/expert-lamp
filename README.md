@@ -2,12 +2,9 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This application is an API for a social media web application where users can share their thoughts, and reactions to friends. You can also create a friend list. This is a backend applicaition that uses NoSQL database, MongoDB database, Express.js for routing, and Mongoose ODM to handle the large amounts of unstructured data, this includes the User, Reaction and Thought models and schemas. When the application is invoked, the server is started and Mongoose models are synced to MongoDB. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Using Insomnia you are able to use GET, POST, PUT, and DELETE data using the API routes. Working with these I learned how to successfully GET, POST, PUT, and DELETE all users, thoughts, and reactions. It is even possible to see how many friends a user has, as well as modify or delete the friends. During this project I learned how to successfully use and understand MongoDB and Mongoose. 
 
 ## Table of Contents (Optional)
 
@@ -15,12 +12,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Packages](#packages)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Clone the repository, open the project folder using CLI and run the command to install Node.js: `npm i`
 
 ## Usage
 
@@ -28,9 +24,12 @@ To run this backend program, you need to run the following command through your 
 
 `npm run watch`
 
+Video demo: https://drive.google.com/file/d/1rBI9UkDx6k4qDBKRwoD0HL2tIUGbTHy7/view
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+## Packages
+
+* Mongoose ODM https://www.npmjs.com/package/mongoose to connect to MongoDB database
+* Express.js https://www.npmjs.com/package/express
+* Moments https://www.npmjs.com/package/moment
 
 
